@@ -5,7 +5,6 @@
 MQ135 gasSensor = MQ135(ANALOGPIN);
 
 void Co2_init() {
-  Serial.begin(9600);
   float rzero = gasSensor.getRZero();
   delay(3000);
   Serial.print("MQ135 RZERO Calibration Value : ");

@@ -2,7 +2,6 @@ int ReadUVintensityPin = A0;
 
 void UVintensity_init() {
   pinMode(ReadUVintensityPin, INPUT);
-  Serial.begin(9600);  
 }
 
 void UVintensity_read() {
